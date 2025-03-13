@@ -1,0 +1,17 @@
+{
+  "name": "sfcc-pricebook-currency-update",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "dependencies": {
+    "commander": "^13.0.0",
+    "libxmljs": "1.0.11",
+    "path": "^0.12.7",
+    "xml-stream": "^0.4.5",
+    "xmllint": "^0.1.1"
+  }
+}
