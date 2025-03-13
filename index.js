@@ -105,7 +105,7 @@ function fixIndentation(data) {
     if (data === '</header>') {
         indentBy(2);
     }
-    const headerTags = ['<currency', '<display-name', '<online-flag'];
+    const headerTags = ['<currency', '<display-name', '<online-flag', '<parent'];
     if (headerTags.indexOf(data) !== -1) {
         indentBy(3);
     }
