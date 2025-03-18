@@ -89,7 +89,7 @@ xml.on('error', (err) => {
  * convertPrice(200.75, 4.98); // Returns 999
  */
 function convertPrice(price, exchangeRate) {
-    const roundedToNearest5 = Math.ceil(price * exchangeRate / 5) * 5; // Ends in 5 or 0
+    const roundedToNearest5 = Math.round(price * exchangeRate / 5) * 5; // Ends in 5 or 0
     const roundedPrice = roundedToNearest5 - 1; // Ends in 4 or 9
     return roundedPrice;
 }
